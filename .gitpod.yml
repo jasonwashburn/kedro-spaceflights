@@ -5,7 +5,9 @@
 tasks:
   - init: |
       pip install -r requirements.txt
+      wget -O kedro-tutorial/data/01_raw/reviews.csv https://quantumblacklabs.github.io/kedro/reviews.csv
+      wget -O kedro-tutorial/data/01_raw/companies.csv https://quantumblacklabs.github.io/kedro/companies.csv
+      wget -O kedro-tutorial/data/01_raw/shuttles.xlsx https://quantumblacklabs.github.io/kedro/shuttles.xlsx
 vscode:
   extensions:
     - ms-python.python
-

@@ -8,6 +8,10 @@ tasks:
       wget -O kedro-tutorial/data/01_raw/reviews.csv https://kedro-org.github.io/kedro/reviews.csv
       wget -O kedro-tutorial/data/01_raw/companies.csv https://kedro-org.github.io/kedro/companies.csv
       wget -O kedro-tutorial/data/01_raw/shuttles.xlsx https://kedro-org.github.io/kedro/shuttles.xlsx
+      cd kedro-tutorial
+      kedro install
 vscode:
   extensions:
     - ms-python.python
+    - kevinrose.vsc-python-indent
+    - njpwerner.autodocstring
